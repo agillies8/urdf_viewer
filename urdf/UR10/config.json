@@ -1,0 +1,27 @@
+{
+    
+
+    // Can be found in the URL when editing the assembly
+    "documentId": "477412938980f72db4fe4e1b",
+    "versionId": "636333c085e83afa3aa31d97",
+    // If not specified, the first assembly will be used
+    "assemblyName": "UR10",
+    // Can be urdf or sdf
+    "outputFormat": "urdf",
+    // The frames parts are kept in the final file
+    "drawFrames": false,
+    // Collisions (pure shapes) are also used in the visual section
+    "drawCollisions": false,
+    // Wether or not the scan for SCAD files (pure shapes) should be done
+    "useScads": true,
+    // Masses, com and inertias will be zero (can be used if you import a static
+    // field for example)
+    "noDynamics": false,
+    // Should the STLs of the same link be merged?
+    "mergeSTLs": "all",
+    // Should we simplify STLs files?
+    "simplifySTLs": "no",
+    // Maximum size (M) of STL files to run simplification (required meshlab)
+    "maxSTLSize": 3
+
+}

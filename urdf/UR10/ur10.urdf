@@ -1,0 +1,250 @@
+<robot name="onshape">
+<link name="base_link">
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/UR10/base_link_visual.stl"/>
+</geometry>
+<material name="base_link_material">
+<color rgba="0.5 0.5 0.5 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/UR10/base_link_collision.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0" />
+<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+
+<link name="link_1">
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/UR10/link_1_visual.stl"/>
+</geometry>
+<material name="link_1_material">
+<color rgba="0.5 0.5 0.5 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/UR10/link_1_collision.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0" />
+<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+
+<link name="link_2">
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/UR10/link_2_visual.stl"/>
+</geometry>
+<material name="link_2_material">
+<color rgba="0.5 0.5 0.5 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/UR10/link_2_collision.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0" />
+<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+
+<link name="link_3">
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/UR10/link_3_visual.stl"/>
+</geometry>
+<material name="link_3_material">
+<color rgba="0.5 0.5 0.5 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/UR10/link_3_collision.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0" />
+<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+
+<link name="link_4">
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/UR10/link_4_visual.stl"/>
+</geometry>
+<material name="link_4_material">
+<color rgba="0.5 0.5 0.5 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/UR10/link_4_collision.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0" />
+<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+
+<link name="link_5">
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/UR10/link_5_visual.stl"/>
+</geometry>
+<material name="link_5_material">
+<color rgba="0.5 0.5 0.5 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/UR10/link_5_collision.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0" />
+<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+
+<link name="link_6">
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/UR10/link_6_visual.stl"/>
+</geometry>
+<material name="link_6_material">
+<color rgba="0.5 0.5 0.5 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/UR10/link_6_collision.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0" />
+<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+
+<link name="tool_link">
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/UR10/tool_link_visual.stl"/>
+</geometry>
+<material name="tool_link_material">
+<color rgba="0.5 0.5 0.5 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/UR10/tool_link_collision.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0" />
+<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+
+<joint name="tool_joint" type="fixed">
+<origin xyz="-2.4589488431536743462e-14 -2.5052026453309395038e-07 -0.030499999999999999334" rpy="-3.1415926535897873428 8.1717553996957056569e-17 -1.2892416915088005543e-30" />
+<parent link="link_6" />
+<child link="tool_link" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="jonit_6" type="revolute">
+<origin xyz="1.1268357286023725217e-07 -0.061700210890544865405 -0.054000000000002490452" rpy="-1.5707963267948976682 2.1941589971246535956e-15 2.57971935940525504e-15" />
+<parent link="link_5" />
+<child link="link_6" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="6.283185307179586232"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint_5" type="revolute">
+<origin xyz="-1.1268356927998483819e-07 0.061700210890553774945 -0.054000000000000755729" rpy="1.5707963267948972241 1.6760055792113724001e-15 5.1258357588186741462e-15" />
+<parent link="link_4" />
+<child link="link_5" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="3.141592653589793116"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint_4" type="revolute">
+<origin xyz="-1.7877409622113482612e-15 -0.57160000000000410481 0.0020000000000002099432" rpy="-3.141592653589793116 2.4833361728621137177e-16 4.4130740263179371005e-15" />
+<parent link="link_3" />
+<child link="link_4" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="3.141592653589793116"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint_3" type="revolute">
+<origin xyz="0.00060145195033005696954 0.61209854804966801201 -0.02169071053999881149" rpy="-3.1415926535897926719 3.9842875890204341081e-17 -3.9274139496116237904e-15" />
+<parent link="link_2" />
+<child link="link_3" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="3.141592653589793116"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint_2" type="revolute">
+<origin xyz="-2.9461451378697759828e-08 -0.085999999999999063305 -0.090001015933243389" rpy="-1.570796326794896558 4.2353203346694858779e-14 2.4626951072822688244e-16" />
+<parent link="link_1" />
+<child link="link_2" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="3.141592653589793116"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="jonit_1" type="revolute">
+<origin xyz="-5.9996830596793661436e-05 0.00030106987869847980956 0.037999999999999999056" rpy="-3.141592653589793116 -4.3438406177895038265e-17 1.2375662337402896606e-33" />
+<parent link="base_link" />
+<child link="link_1" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="0" upper="6.283185307179586232"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+
+</robot>

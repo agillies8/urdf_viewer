@@ -1,0 +1,27 @@
+{
+    
+
+    // Can be found in the URL when editing the assembly
+    "documentId": "45f3222b3f5cd7aa1a1cfa85",
+    "versionId": "701aedb3ff9da25be82efb79",
+    // If not specified, the first assembly will be used
+    "assemblyName": "Pointer Tool",
+    // Can be urdf or sdf
+    "outputFormat": "urdf",
+    // The frames parts are kept in the final file
+    "drawFrames": false,
+    // Collisions (pure shapes) are also used in the visual section
+    "drawCollisions": false,
+    // Wether or not the scan for SCAD files (pure shapes) should be done
+    "useScads": true,
+    // Masses, com and inertias will be zero (can be used if you import a static
+    // field for example)
+    "noDynamics": false,
+    // Should the STLs of the same link be merged?
+    "mergeSTLs": "all",
+    // Should we simplify STLs files?
+    "simplifySTLs": "no",
+    // Maximum size (M) of STL files to run simplification (required meshlab)
+    "maxSTLSize": 3
+
+}

@@ -1,0 +1,58 @@
+<robot name="onshape">
+<link name="pointer_tool">
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/pointer_tool/pointer_tool_visual.stl"/>
+</geometry>
+<material name="pointer_tool_material">
+<color rgba="0.5 0.5 0.5 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/pointer_tool/pointer_tool_collision.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0" />
+<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+
+<link name="tool_tip">
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/pointer_tool/tool_tip_visual.stl"/>
+</geometry>
+<material name="tool_tip_material">
+<color rgba="0.5 0.5 0.5 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://urdf_viewer/urdf/pointer_tool/tool_tip_collision.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0" />
+<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+
+<joint name="tool_tip" type="fixed">
+<origin xyz="-1.7347234759768070944e-18 0 0.050000000000000002776" rpy="0 -0 0" />
+<parent link="pointer_tool" />
+<child link="tool_tip" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+
+</robot>
